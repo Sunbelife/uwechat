@@ -24,7 +24,7 @@ total = male + female + other
 
 # for Chinese support
 def getChineseFont():  
-    return FontProperties(fname='fonts/PingFang.ttc')  
+    return FontProperties(fname='fonts/STKAITI.TTF')  
 def draw_it(labels,quants):  
     plt.figure(figsize=(6,8))
     sizes = quants
